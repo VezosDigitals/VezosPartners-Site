@@ -59,13 +59,13 @@ const CaseStudiesSection = () => {
               <div className="text-3xl font-heading font-bold text-primary mb-1">{s.metric}</div>
               <h3 className="font-heading font-semibold text-lg mb-2">{s.title}</h3>
               <p className="text-sm text-muted-foreground mb-6">{s.desc}</p>
-              <div className="h-32">
+              <div className="h-40 w-full">
                 {visible && (
                   <ResponsiveContainer width="100%" height="100%">
-                    <BarChart data={s.data}>
+                    <BarChart data={s.data} margin={{ top: 5, right: 5, bottom: 5, left: 5 }}>
                       <XAxis dataKey="m" tick={{ fontSize: 10, fill: "hsl(0 0% 40%)" }} axisLine={false} tickLine={false} />
-                      <YAxis hide />
-                      <Bar dataKey="v" fill="hsl(312 100% 50%)" radius={[4, 4, 0, 0]} opacity={0.7} />
+                      <YAxis hide domain={[0, 100]} />
+                      <Bar dataKey="v" fill="hsl(312, 100%, 50%)" radius={[4, 4, 0, 0]} opacity={0.8} animationDuration={1500} animationEasing="ease-out" />
                     </BarChart>
                   </ResponsiveContainer>
                 )}
