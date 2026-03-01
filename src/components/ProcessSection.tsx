@@ -26,12 +26,11 @@ const ProcessSection = () => {
           {/* Connecting line */}
           <div className="hidden md:block absolute top-12 left-[16.67%] right-[16.67%] h-0.5">
             <div
-              className="h-full rounded-full transition-all duration-1500 ease-out"
+              className="h-full rounded-full"
               style={{
-                background: visible ? "linear-gradient(90deg, hsl(312 100% 50% / 0.5), hsl(312 100% 50% / 0.2))" : "transparent",
-                backgroundSize: "200% 100%",
+                backgroundColor: visible ? "hsl(312 100% 50% / 0.3)" : "transparent",
                 width: visible ? "100%" : "0%",
-                transition: "width 1.5s cubic-bezier(0.16, 1, 0.3, 1)"
+                transition: "width 1.5s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.5s ease"
               }}
             />
           </div>
