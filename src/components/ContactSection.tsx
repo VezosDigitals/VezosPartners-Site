@@ -1,9 +1,7 @@
-import { useState } from "react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const ContactSection = () => {
   const { ref, visible } = useScrollAnimation(0.1);
-  const [submitted, setSubmitted] = useState(false);
 
   return (
     <section id="contact" ref={ref} className="py-24 relative">
