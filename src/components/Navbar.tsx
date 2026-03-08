@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? "glass py-3" : "py-5 bg-transparent"}`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <img src="/logo.png" alt="Vezos Partners" className="h-12 md:h-14" />
+        <img src="/logo.png" alt="Vezos Partners" className="h-16 md:h-20" />
         
         {/* Desktop links */}
         <div className="hidden lg:flex items-center gap-8">
