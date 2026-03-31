@@ -1,4 +1,4 @@
-const links = ["Services", "Why Vezos", "Process", "Case Studies", "Pricing", "FAQ", "Contact"];
+const links = ["Services", "Why Vezos", "Process", /* "Case Studies", "Pricing" */, "FAQ", "Contact"];
 
 const FooterSection = () => {
   const scrollTo = (id: string) => {

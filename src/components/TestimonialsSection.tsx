@@ -6,7 +6,7 @@ const testimonials = [
   { name: "Marcus Wright", role: "Founder", agency: "Apex Digital", quote: "We scaled from 12 to 45 clients in 6 months without hiring a single person. Vezos made it possible." },
   { name: "Elena Rodriguez", role: "Managing Director", agency: "Nova Agency", quote: "The NDA-protected execution gives us complete confidence. Our clients never know, and that's the point." },
   { name: "David Kim", role: "Partner", agency: "Kinetic Media", quote: "Predictable delivery, consistent quality, zero drama. Exactly what we needed to scale." },
-];
+]; 
 
 const TestimonialsSection = () => {
   const [active, setActive] = useState(0);

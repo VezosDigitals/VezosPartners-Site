@@ -5,10 +5,10 @@ const faqs = [
   { q: "Do you work with end clients?", a: "No. Vezos Partners exclusively serves agencies. We never engage with your end clients directly. Your client relationships remain 100% yours." },
   { q: "Do you sign NDAs?", a: "Absolutely. Every partnership begins with a comprehensive NDA. Confidentiality is foundational to our operating model." },
   { q: "Can you take over existing projects?", a: "Yes. We regularly onboard in-progress campaigns and projects. Our team conducts a thorough audit and creates a seamless transition plan." },
-  { q: "What communication tools do you use?", a: "We adapt to your workflow — Slack, Teams, Asana, Monday, Basecamp, or email. We integrate into your existing communication stack." },
+  { q: "What communication tools do you use?", a: "We adapt to your workflow — Slack, Teams, WhatsApp, or email. We integrate into your existing communication stack." },
   { q: "Do you provide staging servers?", a: "Yes. For development projects, we provide dedicated staging environments for review before any deliverable goes live." },
-  { q: "What payment methods are accepted?", a: "We accept wire transfers, ACH, and credit card payments. Monthly and quarterly billing cycles are available." },
-  { q: "Can your team work in different time zones?", a: "Yes. We have team members across multiple time zones and align working hours to your agency's schedule for real-time collaboration." },
+  //{ q: "What payment methods are accepted?", a: "We accept wire transfers, ACH, and credit card payments. Monthly and quarterly billing cycles are available." },
+  //{ q: "Can your team work in different time zones?", a: "Yes. We have team members across multiple time zones and align working hours to your agency's schedule for real-time collaboration." },
 ];
 
 const FAQSection = () => {

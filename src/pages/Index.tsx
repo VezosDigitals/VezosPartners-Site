@@ -20,8 +20,8 @@ const Index = () => (
     <WhyVezosSection />
     <ProcessSection />
     <TeamSection />
-    <TestimonialsSection />
-    <PricingSection />
+    {/* <TestimonialsSection /> */}
+    {/* <PricingSection/> */}
     <FAQSection />
     <ContactSection />
     <FooterSection />
